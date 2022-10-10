@@ -3,7 +3,11 @@ cmake_minimum_required(VERSION 3.22)
 project(Tic-Tac-Toe CXX)
 set(CMAKE_CXX_STANDARD 17)
 
-set(TTT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
+set(TTT_SOURCES 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Window.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/Window.cpp
+    )
 
 set(TTT_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 
